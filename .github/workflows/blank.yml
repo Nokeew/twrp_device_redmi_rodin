@@ -49,7 +49,7 @@ jobs:
           cd ~/twrp
           . build/envsetup.sh
           lunch twrp_rodin-eng
-          mka recoveryimage
+          mka vendorbootimage
 
       - name: Package with AnyKernel3
         run: |
